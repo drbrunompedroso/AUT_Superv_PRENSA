@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.11.10" runtimeid="3.5.11.30" libversion="3.5.11.0" compiler="3.5.11.30" lmm="3.5.11.30" profile="XSOFT-CODESYS V3.5.11+" settings="SupportOPCUA, XmlIncludeComments, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Projeto_Prensa" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_BYTE" size="1" swapsize="1" typeclass="Byte" iecname="BYTE" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="PLC_PRG">
+        <Node name="AB0" type="T_BYTE" access="ReadWrite" />
+        <Node name="ED0" type="T_BYTE" access="ReadWrite" />
+        <Node name="I0" type="T_BOOL" access="ReadWrite">
+          <Comment>S1</Comment>
+        </Node>
+        <Node name="I1" type="T_BOOL" access="ReadWrite">
+          <Comment>S2</Comment>
+        </Node>
+        <Node name="I2" type="T_BOOL" access="ReadWrite">
+          <Comment>S3</Comment>
+        </Node>
+        <Node name="I3" type="T_BOOL" access="ReadWrite">
+          <Comment>S4</Comment>
+        </Node>
+        <Node name="I4" type="T_BOOL" access="ReadWrite">
+          <Comment>S5</Comment>
+        </Node>
+        <Node name="I5" type="T_BOOL" access="ReadWrite">
+          <Comment>S6</Comment>
+        </Node>
+        <Node name="I7" type="T_BOOL" access="ReadWrite">
+          <Comment>B1</Comment>
+        </Node>
+        <Node name="M0" type="T_BOOL" access="ReadWrite">
+          <Comment>K1</Comment>
+        </Node>
+        <Node name="M1" type="T_BOOL" access="ReadWrite">
+          <Comment>K2</Comment>
+        </Node>
+        <Node name="M2" type="T_BOOL" access="ReadWrite">
+          <Comment>K3</Comment>
+        </Node>
+        <Node name="M3" type="T_BOOL" access="ReadWrite">
+          <Comment>K4</Comment>
+        </Node>
+        <Node name="M4" type="T_BOOL" access="ReadWrite">
+          <Comment>K5</Comment>
+        </Node>
+        <Node name="Q0" type="T_BOOL" access="ReadWrite">
+          <Comment>Y1</Comment>
+        </Node>
+        <Node name="Q1" type="T_BOOL" access="ReadWrite">
+          <Comment>Y2</Comment>
+        </Node>
+        <Node name="Q2" type="T_BOOL" access="ReadWrite">
+          <Comment>Y3</Comment>
+        </Node>
+        <Node name="Q3" type="T_BOOL" access="ReadWrite">
+          <Comment>Y4</Comment>
+        </Node>
+        <Node name="Q4" type="T_BOOL" access="ReadWrite">
+          <Comment>Y5</Comment>
+        </Node>
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
